@@ -474,6 +474,7 @@ FOOTER
 }
 .footer-social {
   display: block;
+  margin-right: 80px;
 }
 .social-title {
   margin-bottom: 16px;
@@ -501,6 +502,65 @@ FOOTER
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+/* FOOTER INPUT */
+.footer-form {
+}
+.form-foot-input {
+  display: flex;
+}
+.footer-input-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+.footer-field {
+  background-color: var(--color-navy-blue);
+  height: 40px;
+  width: 264px;
+  border-radius: 4px;
+  border: 1px solid var(--color-white);
+  margin-right: 24px;
+  color: var(--color-white);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+.button-footer-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 165px;
+  height: 40px;
+  color: var(--color-white);
+  background: var(--color-iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition-property: background-color;
+  transition: background-color var(--animation-cubic);
+  gap: 16px;
+}
+.button-footer-input:hover,
+.button-footer-input:focus {
+  background-color: var(--color-ocean);
+}
+.footer-btn-icon {
+  fill: var(--color-white);
+}
+.text-btn-footer {
 }
 /* ======================
 PORTFOLIO
@@ -766,29 +826,4 @@ modal window
 }
 .modal-link {
   color: var(--color-iris);
-}
-.form-btn {
-  display: block;
-  padding: 16px 32px;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 169px;
-  height: 56px;
-  color: var(--color-white);
-  background: var(--color-iris);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  transition-property: background-color;
-  transition: background-color var(--animation-cubic);
-}
-.form-btn:hover,
-.form-btn:focus {
-  background-color: var(--color-ocean);
 }
