@@ -128,7 +128,7 @@ HEADER
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-ocean);
+  color: var(--color-navy-blue);
   text-decoration: none;
   transition-property: color;
   transition: color var(--animation-cubic);
@@ -144,6 +144,9 @@ HEADER
 }
 .nav-link.active::after {
   background-color: var(--color-ocean);
+}
+.active {
+  color: var(--color-ocean);
 }
 .nav-mail {
   display: block;
@@ -560,8 +563,6 @@ FOOTER
 .footer-btn-icon {
   fill: var(--color-white);
 }
-.text-btn-footer {
-}
 /* ======================
 PORTFOLIO
 ========================= */
@@ -767,6 +768,7 @@ modal window
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
+  padding-bottom: 4px;
 }
 .form-wrapper {
   position: relative;
@@ -778,7 +780,7 @@ modal window
   padding-left: 38px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  color: var(--color-navy-blue-modal);
+  color: var(--color-light-slate);
 }
 .form-field:focus {
   outline: 1px solid var(--color-iris);
@@ -808,7 +810,7 @@ modal window
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--color-navy-blue-modal);
+  color: var(--color-light-slate);
 }
 .form-comment:focus {
   outline: 1px solid var(--color-iris);
@@ -841,9 +843,4 @@ modal window
 }
 .form-check-input:checked + .form-custom-check > .checked {
   opacity: 1;
-}
-.form-custom-check {
-}
-.form-check-input {
-  appearance: none;
 }
