@@ -555,7 +555,7 @@ FOOTER
 }
 .button-footer-input:hover,
 .button-footer-input:focus {
-  background-color: var(--color-ocean);
+  background-color: var(--color-green);
 }
 .footer-btn-icon {
   fill: var(--color-white);
