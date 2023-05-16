@@ -778,6 +778,7 @@ modal window
   padding-left: 38px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  color: var(--color-navy-blue-modal);
 }
 .form-field:focus {
   outline: 1px solid var(--color-iris);
@@ -826,4 +827,23 @@ modal window
 }
 .modal-link {
   color: var(--color-iris);
+}
+/* svg check */
+.unchecked {
+  transition: var(--animation-cubic);
+}
+.checked {
+  opacity: 0;
+  transition: var(--animation-cubic);
+}
+.form-check-input:checked + .form-custom-check > .unchecked {
+  opacity: 0;
+}
+.form-check-input:checked + .form-custom-check > .checked {
+  opacity: 1;
+}
+.form-custom-check {
+}
+.form-check-input {
+  appearance: none;
 }
