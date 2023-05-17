@@ -764,11 +764,12 @@ modal window
   color: var(--color-navy-blue);
 }
 .form-label {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .form-wrapper {
   position: relative;
